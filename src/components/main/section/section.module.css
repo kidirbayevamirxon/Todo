@@ -1,0 +1,44 @@
+.section {
+  width: 50%;
+  margin: 0 auto;
+  height: 90px;
+}
+
+.sectionDiv{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    height: 90px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+.sectionInput{
+    width: 90%;
+    height: 90px;
+    border-radius: 8px;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+}
+button{
+    margin-left: 20px;
+    border: 1px solid blue;
+    background-color: rgba(0, 0, 255, 0.418);
+}
+.btnImg{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.textDiv{
+    width: 90%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    color: #000;
+    font-size: 20px;
+}
