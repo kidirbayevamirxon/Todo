@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import './App.css'
 import { Header } from './components/header/header.jsx'
-import { Section } from './components/main/section/section.jsx'
+import { Main } from './components/main/moin.jsx'
+
 function App() {
   return (
     <>
      <Header />
-      <Section />
+      <Main/>
     </>
   )
 }

@@ -1,8 +1,14 @@
 import classes from './section.module.css';
-import { Button } from '../../button/button.jsx';
-import strelka from '../../../assets/arrow-right-solid.svg';
+import { Button } from '../button/button.jsx';
+import strelka from '../../assets/arrow-right-solid.svg';
 export function Section() {
-       
+        const input=document.querySelector('.sectionInput');
+        const text=document.querySelector('.text');
+        const btn=document.querySelector('.btnImg');
+        // btn.addEventListener('click',()=>{
+        //     text.textContent=input.value;
+        // })
+
     return (
         <>
             <section className={classes.section}>
