@@ -11,7 +11,7 @@ export function Section() {
             setCount(inputRef.current.value);
             textRef.current.innerHTML = inputRef.current.value;
             textDiv.current.style.display='block'
-            inputRef.current.value=" "
+            inputRef.current.value=""
     };
     return (
         <>
